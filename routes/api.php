@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::apiResource('user', UserController::class)->except('show');
+Route::apiResource('users', UserController::class)->except('show');
